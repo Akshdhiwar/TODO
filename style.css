@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.3s all ease-out;
+}
+body {
+  background-color: #fff7bc;
+  color: #fd5d5d;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 1rem auto;
+  padding: 0 1rem;
+}
+#add-task {
+  display: flex;
+}
+#task-input {
+  flex: 1;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+#submit {
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #fd5d5d;
+  color: #fff;
+  cursor: pointer;
+}
+.taskfield {
+  max-width: 1000px;
+  margin: 1rem auto;
+  padding: 0 1rem;
+}
+.task-holder {
+  display: flex;
+}
+.task {
+  display: flex;
+  flex: 1 1 0%;
+}
+.task-list {
+  flex: 1;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+.edit {
+  font-size: 1rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: none;
+}
+.delete {
+  font-size: 1rem;
+  margin: 1rem 10px;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #ff8080;
+  cursor: pointer;
+}
+.done {
+  font-size: 1rem;
+  margin: 1rem;
+  margin-left: 0;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #c0eda6;
+  cursor: pointer;
+}
+.active {
+  background-color: #c0eda6;
+}
+.edit:hover,
+.done:hover,
+.delete:hover,
+#submit:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Task for today</h1>
+      <h3 class="a" onload="Tdate()"></h3>
+      <h3 class="b" onload="Ttime()"></h3>
+      <div class="task-input-container">
+        <form id="add-task">
+          <input type="text" id="task-input" />
+
+          <input type="submit" value="Submit" id="submit" />
+        </form>
+      </div>
+    </header>
+    <div class="taskfield">
+      <h1>Task</h1>
+      <!-- <div class="task-holder">
+        <div class="task">
+          <input type="text" class="task-list" />
+        </div>
+        <div class="action">
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </div>
+      </div> -->
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
